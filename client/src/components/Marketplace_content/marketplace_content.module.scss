@@ -1,0 +1,12 @@
+.m_content {
+    background-color: #4EA8DE;
+    width: 100%;
+    padding: 10px;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .m_content {
+        flex-direction: column !important;
+    }
+}

@@ -1,0 +1,21 @@
+.m_dashboard {
+    padding: 0 15px;
+}
+
+@media (max-width: 1199px) {
+    .m_dashboard {
+        width: 74%;
+    }
+}
+
+@media (max-width: 991px) {
+    .m_dashboard {
+        width: 69%;
+    }
+}
+
+@media (max-width: 768px) {
+    .m_dashboard {
+        width: 100%;
+    }
+}

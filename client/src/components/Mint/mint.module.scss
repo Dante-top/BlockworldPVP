@@ -1,0 +1,286 @@
+.mint {
+    width: 100%;
+
+    .PageMint {
+        row-gap: 30px;
+        padding: 70px 0;
+
+        .header {
+            width: 550px;
+            border-radius: 22px;
+            border: 7px solid #00303E;
+        }
+
+        .headerText1 {
+            color: white;
+            background-color: #00303E;
+            font-size: 45px;
+            flex: 32%;
+            border-radius: 10px 0px 0px 10px;
+            text-align: center;
+        }
+
+        .headerText2 {
+            color: #00303E;
+            text-align: center;
+            background-color: white;
+            font-size: 45px;
+            border-radius: 22px;
+            flex: 70%;
+        }
+
+        .MintImg {
+            width: 365px;
+            border-radius: 20px;
+        }
+
+        .MintMain {
+            column-gap: 50px;
+        }
+
+        .MintImgPart {
+            margin-top: 49px;
+
+            img {
+                margin-bottom: 43px;
+            }
+        }
+
+        .MintMainBtn {
+            font-size: 25px;
+            font-family: 'Calibri-bold';
+            color: #00303E;
+            background-color: #D2F6FF;
+            border-radius: 20px;
+            box-shadow: 0px 5px 5px rgb(30, 30, 30, 0.5) !important;
+            border: none;
+        }
+
+        .responsive_show {
+            display: block;
+        }
+
+        .MintText1 {
+            background-color: #00303E;
+            color: #FFFFFF;
+            font-size: 20px;
+            border-radius: 20px;
+            font-family: 'Boldstrom';
+        }
+
+        .MintCard {
+            width: 420px;
+            border-radius: 10px;
+            border: 3px solid #00303E;
+            background-color: #00303E;
+        }
+
+        .MintCardTitle {
+            font-size: 38px;
+            font-family: 'Boldstrom';
+            width: 100%;
+            background-color: white;
+            color: #00303E;
+            border: 4px solid #00303E;
+            border-radius: 12px;
+
+            .show {
+                display: none;
+            }
+        }
+
+        .MintCardDes {
+            background-color: #00303E;
+            color: white;
+            font-size: 14px;
+            margin-bottom: 60px;
+        }
+
+
+        .MintValue {
+            font-size: 22.5px;
+            color: black;
+            background-color: white;
+        }
+
+        .MintCardSetPart {
+            background-color: white;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .MintMaxValue {
+            background-color: #00303E;
+            color: white;
+            font-size: 20px;
+            border-radius: 0px 5px 5px 0px;
+        }
+
+
+        .sBtn {
+            font-size: 25px;
+            font-family: 'Calibri-bold';
+            cursor: pointer;
+        }
+
+        .MintCardSet {
+            grid-template-columns: 1fr 1fr;
+            width: 230px;
+            border: 3px solid white;
+            border-radius: 10px;
+            line-height: 1.1;
+        }
+
+        .MintBtn {
+            width: 330px;
+            border: none;
+            font-size: 30px;
+            border-radius: 20px;
+            background-color: #90BE6D;
+            color: white;
+
+            span {
+                font-family: 'Calibri-bold';
+            }
+        }
+
+        .BtButton {
+            width: 100%;
+            margin-top: 35px;
+
+            .responsive_hidden {
+                display: none;
+            }
+        }
+
+        .popImg {
+            width: 220px;
+            position: absolute;
+            top: -120.5px;
+            right: 0px;
+            z-index: -99;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .mint {
+        .MintMain {
+            flex-direction: column;
+            row-gap: 25px;
+
+            .MintImgPart {
+                img {
+                    margin-bottom: 0 !important;
+                }
+
+                .responsive_show {
+                    display: none !important;
+                }
+            }
+
+            .MintText1 {
+                display: none !important;
+            }
+
+            .popImg {
+                display: none !important;
+            }
+
+            .BtButton {
+                flex-direction: column;
+                align-items: center;
+
+                .responsive_hidden {
+                    display: block;
+                    margin: 30px 0;
+                }
+            }
+        }
+
+        .PageMint {
+            .MintImg {
+                width: 420px;
+                max-width: 100% !important;
+            }
+
+            .MintCard {
+                max-width: 100% !important;
+            }
+
+            .MintCardTitle {
+                .show {
+                    display: block !important;
+                }
+            }
+        }
+
+        .header {
+            width: 350px !important;
+            border: 5px solid #00303E !important;
+        }
+
+        .headerText1,
+        .headerText2 {
+            font-size: 30px !important;
+            border-radius: 7px 0px 0px 7px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .mint {
+
+        .header {
+            width: 250px !important;
+        }
+
+        .headerText1,
+        .headerText2 {
+            font-size: 20px !important;
+        }
+
+        .MintImg {
+            width: 320px !important;
+        }
+
+        .MintCard {
+            width: 320px !important;
+        }
+
+        .MintBtn {
+            width: 250px !important;
+            font-size: 23px !important;
+        }
+
+        .MintText1 {
+            font-size: 15px !important;
+        }
+
+        .MintCardTitle {
+            font-size: 30px !important;
+        }
+
+        .PageMint {
+            .popImg {}
+        }
+
+    }
+
+    @media (max-width: 480px) {
+        .mint {
+
+            .MintImg {
+                width: 95% !important;
+                margin-right: 10px;
+            }
+
+            .MintCard {
+                width: 98% !important;
+            }
+
+
+
+        }
+    }
+
+}

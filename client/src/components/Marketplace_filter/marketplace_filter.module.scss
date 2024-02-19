@@ -1,0 +1,90 @@
+.m_filter {
+    background-color: #212529;
+    border-radius: 15px;
+    padding: 10px;
+
+    .title {
+        color: #fff;
+        font-size: 45px;
+        font-family: 'Calibri';
+        margin: 0;
+    }
+
+    .amount_content {
+        color: #fff;
+        padding: 10px 0;
+
+        .min_amount {
+            border: 1px solid #fff;
+            padding: 5px 12px;
+            margin: 0 5px;
+            width: 45%;
+            justify-content: center;
+
+            .amount_text {
+                margin-right: 31px;
+
+                p {
+                    margin: 0;
+                    font-family: 'Calibri';
+                    font-size: 18px;
+                }
+            }
+
+            .arrow {
+                a {
+                    cursor: pointer;
+                }
+
+                img {
+                    margin: 3px 0;
+                }
+            }
+        }
+    }
+
+    .rarity_body {
+        background-color: #212529;
+
+        fieldset {
+            border: none;
+            border-color: transparent;
+        }
+
+        fieldset:focus {
+            border: none;
+            border-color: transparent;
+        }
+    }
+
+    .rarity_label {
+        color: #fff;
+    }
+
+    .rarity_item {
+        background-color: #212529;
+        color: #fff;
+        border: 1px solid #fff;
+        margin: 10px 0;
+
+        span {
+            color: #fff !important;
+            font-family: 'Calibri';
+        }
+
+        label {
+            color: #fff !important;
+            font-size: 18px;
+            top: -12px;
+            left: -21px;
+        }
+
+        svg {
+            color: #fff !important;
+        }
+
+        input {
+            padding: 0;
+        }
+    }
+}

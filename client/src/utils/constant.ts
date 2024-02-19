@@ -1,0 +1,1 @@
+export const POSTSALE_STATUS = 1;

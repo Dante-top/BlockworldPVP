@@ -1,0 +1,57 @@
+{
+    "Rarity": [
+        {
+            "title":"COMMON",
+            "color":"bg-grey",
+            "border-color":"border-grey",
+            "children":[
+                {
+                    "subtitle": "HATS",
+                    "content": [
+                        {
+                            "name":"• Bandana (10.78%)"
+                        },
+                        {
+                            "name":"• Beanie (10.65%)"
+                        },
+                        {
+                            "name":"• Farmer (9.57%)"
+                        },
+                        {
+                            "name":"• Police (8.76%)"
+                        },
+                        {
+                            "name":"• Trucker (8.67%)"
+                        }
+                    ]       
+                },
+                {
+                    "subtitle": "CLOTHING",
+                    "content": [
+                        {
+                            "name":"• Tie Dye Shirt (12.43%)"
+                        },
+                        {
+                            "name":"• Black Hoodie (12.34%)"
+                        },
+                        {
+                            "name":"• White Shirt (11.34%)"
+                        },
+                        {
+                            "name":"• Green Hoodie (10.98%)"
+                        },
+                        {
+                            "name":"• Blue Hoodie (10.01%)"
+                        },
+                        {
+                            "name":"• Red Hoodie (9.47%)"
+                        },
+                        {
+                            "name":"• White Hoodie (9.18%)"
+                        }
+                    ]       
+                }
+            ]
+        }
+    ]
+}

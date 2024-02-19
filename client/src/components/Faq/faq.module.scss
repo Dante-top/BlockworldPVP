@@ -1,0 +1,265 @@
+.gradientStart {
+  max-width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, #72e1ff 0%, #ffffff 100%);
+  position: relative;
+  z-index: -1;
+}
+
+.gradientEnd {
+  max-width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, #ffffff 0%, #72e1ff 100%);
+  position: relative;
+}
+
+@media (max-width: 685px) {
+  .gradientEnd {
+    height: 100px !important;
+  }
+}
+
+.faq {
+  z-index: 1;
+  margin-top: -50px;
+  width: 90%;
+
+  .textarea {
+    display: flex;
+    margin-top: -30px;
+  }
+
+  .xtext,
+  .xxtext {
+    border: 7px solid #00303e;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Boldstrom';
+  }
+
+  .xtext {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: #00303e;
+    background-color: #d2f6ff;
+    width: 60%;
+  }
+
+  .xxtext {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #00303e;
+    width: 40%;
+  }
+
+  .textarea {
+    display: flex;
+  }
+}
+
+.accordion_content_button:not(.collapsed)::after {
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+  background-image: url("../../../public/img/collapseIcon.png");
+  margin-right: -20px;
+}
+
+.accordion {
+  .accordion_content_item {
+    background-color: rgba(0, 0, 0, 0);
+    border: none !important;
+    color: #fff !important;
+
+    .question_header {
+      color: #fff !important;
+      background-color: rgba(0, 0, 0, 0);
+
+      span {
+        margin-left: -20px;
+      }
+    }
+
+    .accordion_content_button {
+      background-color: rgba(0, 0, 0, 0);
+      color: #fff;
+      font-size: 30px !important;
+
+      .itemTitle {
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        border-radius: 50px;
+        background-color: #00303e;
+        font-family: 'Calibri-bold';
+      }
+    }
+
+    .questiontitle {
+      width: 90%;
+    }
+
+    .accordion_content_body {
+      padding: 5px;
+
+      p {
+        color: black !important;
+        margin-bottom: 2px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .faq {
+
+    .xtext,
+    .xxtext {
+      font-size: 35px;
+      text-align: center;
+    }
+  }
+
+  .accordion {
+    .accordion_content_item {
+      .accordion_content_button {
+        font-size: 25px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .faq {
+    .textarea {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .xtext,
+    .xxtext {
+      font-size: 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .xtext {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 0px;
+      border-bottom: none;
+      border: 7px solid #00303e;
+    }
+
+    .xxtext {
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 20px;
+      border: 7px solid #00303e;
+      border-top: none;
+      margin-top: -1px;
+      margin-left: 0;
+    }
+  }
+
+  .accordion {
+    .accordion_content_item {
+      .accordion_content_button {
+        font-size: 20px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .accordion {
+    .accordion_content_item {
+      .accordion_content_button {
+        font-size: 20px !important;
+
+        span {
+          max-width: 400px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 545px) {
+  .faq {
+    width: 400px;
+
+    .accordion {
+      .accordion_content_item {
+        .accordion_content_button {
+          font-size: 17px !important;
+
+          span {
+            max-width: 350px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .faq {
+    width: 320px;
+    margin-top: -100px;
+
+    .xtext,
+    .xxtext {
+      font-size: 20px;
+    }
+
+    .accordion {
+      .accordion_content_item {
+        .accordion_content_button {
+          font-size: 15px !important;
+        }
+
+        span {
+          max-width: 270px !important;
+          text-align: center;
+        }
+
+        .accordion_content_body {
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .faq {
+    width: 300px;
+
+    .xtext,
+    .xxtext {
+      font-size: 20px;
+    }
+
+    .accordion {
+      .accordion_content_item {
+        .accordion_content_button {
+          font-size: 15px !important;
+        }
+
+        span {
+          max-width: 260px !important;
+          text-align: center;
+        }
+
+        .accordion_content_body {
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

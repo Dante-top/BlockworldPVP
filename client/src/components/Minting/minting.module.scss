@@ -1,0 +1,194 @@
+// .mint {
+//     width: 100%;
+
+//     .PageMint {
+//         row-gap: 30px;
+//         padding-bottom: 50px;
+
+//         .header {
+//             width: 550px;
+//             border-radius: 10px;
+//             border: 3px solid #00303E;
+//         }
+
+//         .headerText1 {
+//             color: white;
+//             background-color: #00303E;
+//             font-size: 45px;
+//             flex: 30%;
+//             text-align: center;
+//         }
+
+//         .headerText2 {
+//             color: #00303E;
+//             text-align: center;
+//             background-color: white;
+//             font-size: 45px;
+//             border-radius: 4px;
+//             flex: 70%;
+//         }
+
+//         .MintImg {
+//             width: 420px;
+//             border: 5px solid #00303E;
+//             border-radius: 20px;
+//         }
+
+//         .MintMain {
+//             column-gap: 50px;
+//         }
+
+//         .MintImgPart {
+//             row-gap: 35px;
+//         }
+
+//         .MintMainBtn {
+//             font-size: 20px;
+//             color: #00303E;
+//             background-color: #D2F6FF;
+//             border-radius: 20px;
+//             box-shadow: 0px 5px 5px rgb(30, 30, 30, 0.5) !important;
+//             border: none;
+//         }
+
+//         .MintText1 {
+//             background-color: #00303E;
+//             color: #FFFFFF;
+//             font-size: 20px;
+//             border-radius: 20px;
+//         }
+
+//         .MintCard {
+//             width: 420px;
+//             border-radius: 10px;
+//             border: 3px solid #00303E;
+//             background-color: #00303E;
+//         }
+
+//         .MintCardTitle {
+//             font-size: 38px;
+//             width: 100%;
+//             background-color: white;
+//             color: #00303E;
+//             border: 4px solid #00303E;
+//             border-radius: 12px;
+//         }
+
+//         .MintCardDes {
+//             background-color: #00303E;
+//             color: white;
+//             font-size: 14px;
+//             margin-bottom: 60px;
+//         }
+
+
+//         .MintValue {
+//             font-size: 25.5px;
+//             color: black;
+//             background-color: white;
+//         }
+
+//         .MintCardSetPart {
+//             background-color: white;
+//             grid-template-columns: 1fr 1fr 1fr;
+//         }
+
+//         .MintMaxValue {
+//             background-color: #00303E;
+//             color: white;
+//             font-size: 20px;
+//         }
+
+
+//         .sBtn {
+//             font-size: 30px;
+//             font-weight: bold;
+
+//         }
+
+//         .MintCardSet {
+//             grid-template-columns: 1fr 1fr;
+//             width: 230px;
+//             border: 3px solid white;
+//             border-radius: 10px;
+//         }
+
+//         .MintBtn {
+//             width: 330px;
+//             border: none;
+//             font-size: 30px;
+//             border-radius: 20px;
+//             background-color: #90BE6D;
+//             color: white;
+//         }
+
+//         .BtButton {
+//             width: 100%;
+//             margin-top: 35px;
+//         }
+
+//         .popImg {
+//             width: 200px;
+//             position: absolute;
+//             top: -107.5px;
+//             right: 0px;
+//             z-index: -99;
+//         }
+//     }
+// }
+
+// @media (max-width: 920px) {
+//     .mint {
+//         .MintMain {
+//             flex-direction: column;
+//             row-gap: 70px;
+//         }
+
+//         .header {
+//             width: 350px !important;
+//         }
+
+//         .headerText1,
+//         .headerText2 {
+//             font-size: 30px !important;
+//         }
+//     }
+// }
+
+// @media (max-width: 450px) {
+//     .mint {
+//         padding-left: 10px;
+//         padding-right: 10px;
+
+//         .header {
+//             width: 250px !important;
+
+//         }
+
+//         .headerText1,
+//         .headerText2 {
+//             font-size: 20px !important;
+//         }
+
+//         .MintImg {
+//             width: 320px !important;
+//         }
+
+//         .MintCard {
+//             width: 320px !important;
+//         }
+
+//         .MintBtn {
+//             width: 250px !important;
+//             font-size: 23px !important;
+//         }
+
+//         .MintText1 {
+//             font-size: 15px !important;
+//         }
+
+//         .MintCardTitle {
+//             font-size: 30px !important;
+//         }
+//     }
+// }

@@ -1,0 +1,265 @@
+.roadmap {
+    background-color: #72E1FF;
+    position: relative;
+
+    .backRoadmap {
+        max-width: 1434px;
+    }
+
+    .header {
+        border: 5px solid #00303E;
+        width: 550px;
+        border-radius: 14px;
+    }
+
+    .headerText1 {
+        color: #00303E;
+        background-color: white;
+        font-family: 'Boldstrom';
+        font-size: 45px;
+        border-radius: 9px 0px 0px 9px;
+    }
+
+    .headerText2 {
+        color: white;
+        font-family: 'Boldstrom';
+        background-color: #00303E;
+        font-size: 45px;
+        border: 1px solid #00303E;
+    }
+
+    .headerBtn {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        width: 200px;
+        font-size: 16px;
+        background-color: #D2F6FF;
+        color: #00303E;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0px 5px 5px rgb(30, 30, 30, 0.5) !important;
+    }
+
+    .PCardTitle {
+        width: 250px;
+        font-size: 35px;
+        font-family: 'Boldstrom';
+        border-radius: 15px;
+        border: 5px solid #00303E;
+    }
+
+    .CardImg {
+        width: 280px;
+    }
+
+    .CardPart {
+        width: 245px;
+        height: 251px;
+        border-radius: 19px;
+        border: 5px solid #00303E;
+    }
+
+    .CardSubTitle {
+        background-color: #00303E;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .CardSubDes {
+        color: #00303E;
+        border-radius: 0px 0px 15px 15px;
+        font-size: 14px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .flex1 {
+        width: 100px;
+    }
+
+    .Card {
+        max-width: 1100px;
+        position: relative;
+    }
+
+    .SCard {
+        margin-top: 150px;
+    }
+
+    .c1 {
+        position: absolute;
+        top: 40px;
+        right: 50px;
+        width: 180px;
+
+    }
+
+    .c2 {
+        position: sticky;
+        left: 60%;
+        width: 200px;
+    }
+
+    .c3 {
+        position: absolute;
+        width: 170px;
+        top: 1030px;
+        left: 40px;
+    }
+
+    .RoadmapGrid {
+        position: relative;
+    }
+}
+
+@media (max-width: 1024px) {
+    .roadmap {
+        .flex1 {
+            width: 0px;
+        }
+
+        .c3 {
+            top: 950px;
+            width: 130px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .roadmap {
+        .Card {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .flex1 {
+            flex: 0;
+        }
+
+        .SCard {
+            margin-top: 20px;
+        }
+
+        .c3 {
+            top: 1620px;
+            width: 110px;
+            left: 0px;
+        }
+
+        .headerBtn {
+            font-size: 16px;
+            width: 220px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .roadmap {
+        .c1 {
+            right: 0px;
+            width: 120px;
+            top: 90px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .roadmap {
+        .CardSub {
+            flex-direction: column;
+        }
+
+        .CardImg {
+            width: 80%;
+        }
+
+        .CardSubTitle {
+            border-radius: 20px 20px 0px 0px;
+            font-size: 37px;
+        }
+
+        .CardSubDes {
+            font-size: 23px;
+            border-radius: 0px 0px 25px 25px;
+        }
+
+        .PCardTitle {
+            width: 65% !important;
+            font-size: 30px !important;
+            margin-top: 35px;
+        }
+
+
+        .CardPart {
+            width: 73%;
+            border-radius: 30px;
+            height: 350px;
+        }
+
+        .header {
+            width: 430px;
+        }
+
+        .headerText1,
+        .headerText2 {
+            font-size: 26px;
+        }
+
+        .PCardTitle {
+            width: 180px;
+            font-size: 20px;
+        }
+
+        .c1 {
+            top: 110px;
+            width: 90px;
+        }
+
+        .c2 {
+            width: 100px;
+        }
+
+        .c3 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .roadmap {
+        .CardSubTitle {
+            border-radius: 20px 20px 0px 0px;
+            font-size: 20px;
+        }
+
+        .CardSubDes {
+            font-size: 17px;
+            border-radius: 0px 0px 25px 25px;
+        }
+
+        .CardPart {
+            height: 260px;
+        }
+
+        .header {
+            width: 320px;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .roadmap {
+        .header {
+            width: 300px;
+        }
+
+        .CardSubDes {
+            font-size: 14px;
+        }
+
+        .CardPart {
+            height: 230px;
+        }
+
+    }
+}

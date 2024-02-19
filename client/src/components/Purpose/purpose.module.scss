@@ -1,0 +1,329 @@
+.benefit {
+    width: 100%;
+    background-color: #72E1FF;
+    justify-content: center;
+    align-items: center;
+
+    .PageBenefit {
+        width: 1443px;
+        margin-bottom: 50px;
+        z-index: 10;
+    }
+
+    .c2Row {
+        justify-content: right !important;
+        padding-right: 40px;
+        width: 100%;
+    }
+
+    .HeaderTitle {
+        border: 5px solid #00303E;
+        border-radius: 17px;
+        background-color: #D2F6FF;
+        width: 400px;
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+
+    .HeaderTitleText {
+        margin: 0;
+        height: 55px;
+        display: flex;
+        align-items: center;
+    }
+
+    .c2 {
+        width: 150px;
+    }
+
+    .c1 {
+        width: 150px;
+        left: 0px;
+        top: 35px;
+    }
+
+    .HeaderPopImg {
+        width: 200px;
+        top: -165px;
+        left: 0px;
+        z-index: -10;
+    }
+
+    .HeaderSubTitle {
+        width: 200px;
+        font-size: 32px;
+        color: white;
+        background-color: #90be6d;
+        border-radius: 12px;
+        text-transform: uppercase;
+        transform: rotate(-10deg);
+        margin-left: 400px;
+        margin-top: -18px;
+    }
+
+    .PageMain {
+        display: grid;
+        grid-column: auto auto;
+    }
+
+    .cardImg {
+        width: 100px;
+    }
+
+    .cardSubTitle {
+        background-color: #00303E;
+        text-align: center;
+        color: #D2F6FF;
+        font-size: 15px;
+        border-radius: 7px;
+        width: 220px;
+        margin-bottom: 10px;
+        padding: 7px 0px;
+        justify-content: center;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .cardMain {
+        width: 360px;
+    }
+
+    .cardSubDes {
+        font-size: 13px;
+        color: #00303E;
+
+    }
+
+    .CardData {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+        row-gap: 60px;
+        column-gap: 30px;
+    }
+
+    .Card {
+        width: 100% !important;
+        justify-content: center;
+        column-gap: 30px;
+    }
+
+    .c3 {
+        margin-left: 60%;
+        width: 150px;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 1443px) {
+    .benefit {
+        .PageBenefit {
+            width: 920px;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .benefit {
+        .PageBenefit {
+            width: 864px;
+        }
+
+        .HeaderTitle {
+            width: 360px;
+            font-size: 30px;
+        }
+
+        .c1 {
+            width: 120px;
+        }
+
+        .c2 {
+            width: 120px;
+        }
+
+        .c3 {
+            bottom: 40px;
+            width: 140px;
+            right: 50px;
+        }
+
+        .HeaderSubTitle {
+            margin-left: 330px;
+            font-size: 25px;
+            width: 150px;
+        }
+
+        .HeaderPopImg {
+            top: -135px;
+            margin-left: 28px;
+            width: 160px;
+        }
+    }
+
+}
+
+@media (max-width:1024px) {
+    .benefit {
+        .cardMain {
+            width: 300px;
+        }
+    }
+
+}
+
+
+@media (max-width:920px) {
+    .benefit {
+        .PageBenefit {
+            width: 700px;
+        }
+
+        .CardData {
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+        }
+
+        .c3 {
+            bottom: -250px;
+            right: 90px;
+        }
+
+        .cardMain {
+            width: 55%;
+        }
+
+        .HeaderPopImg {
+            left: 100;
+        }
+    }
+
+}
+
+@media (max-width: 700px) {
+    .benefit {
+        .PageBenefit {
+            width: 500px;
+        }
+
+        .c1 {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .benefit {
+        .PageBenefit {
+            width: 450px;
+        }
+
+        .c2 {
+            width: 80px;
+        }
+
+        .PageBenefit {
+            width: 360px;
+        }
+
+        .HeaderTitle {
+            width: 300px;
+        }
+
+        .HeaderSubTitle {
+            width: 140px;
+            font-size: 23px;
+            margin-left: 250px;
+        }
+
+        .HeaderPopImg {
+            width: 120px;
+            top: -100px;
+        }
+
+        .c3 {
+            width: 100px !important;
+            bottom: -370px;
+        }
+
+        .Card {
+            flex-direction: column;
+            row-gap: 25px;
+        }
+
+        .cardMain {
+            width: 80%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15px;
+        }
+
+        .cardSubTitle {
+            justify-content: center;
+            text-indent: 0px;
+        }
+    }
+
+    .HeaderTitle {
+        width: 280px;
+        font-size: 25px;
+    }
+
+    .PageBenefit {
+        margin-top: 60px !important;
+    }
+
+
+
+    .cardSubTitle {
+        width: 180px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .benefit {
+        .HeaderPopImg {
+            width: 110px;
+            top: -90px
+        }
+
+        .c3 {
+            right: 40PX;
+        }
+
+        .HeaderTitle {
+            width: 280px
+        }
+    }
+}
+
+@media (max-width: 410px) {
+    .benefit {
+        .PageBenefit {
+            width: 320px;
+        }
+
+        .HeaderTitle {
+            width: 230px;
+        }
+
+        .HeaderSubTitle {
+            width: 100px;
+            font-size: 19px;
+            margin-top: -13px;
+            margin-left: 200px;
+        }
+
+        .HeaderPopImg {
+            width: 110px;
+            top: -90px;
+            left: -30px;
+
+        }
+    }
+}

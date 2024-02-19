@@ -1,0 +1,410 @@
+.battle {
+    width: 100%;
+    flex-direction: column;
+    background-color: #72E1FF;
+
+    .video_content {
+
+        // position: relative;
+        .video {
+            position: relative;
+            text-align: center;
+            max-width: 1552px;
+
+            .video_title {
+                flex-direction: row;
+                background-color: #00303E;
+                border: 6px solid #00303E;
+                border-radius: 18px;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: -14px;
+                left: 50%;
+                z-index: 100;
+
+                .theBattle {
+                    font-size: 50px;
+                    background-color: #d2f6ff;
+                    color: #00303E;
+                    border-radius: 14px 0 0 14px;
+                    width: 100%;
+                    text-align: center;
+                    letter-spacing: 1.5px;
+                    padding: 10px;
+                }
+
+                .arena {
+                    font-size: 50px;
+                    color: #d2f6ff;
+                    letter-spacing: 1.5px;
+                    padding: 0 20px;
+                }
+            }
+
+            .coming {
+                background-color: #00303E;
+                color: #d2f6ff;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                bottom: -6px;
+                left: 50%;
+                border-radius: 10px 10px 0 0;
+                padding: 5px 50px;
+                font-size: 20px;
+            }
+
+            .hold_video {
+                display: inline-block;
+                max-width: 85%;
+
+                video::-webkit-media-controls-overlay-play-button {
+                    display: none;
+                }
+
+                .topper {
+                    max-width: 100%;
+                    position: absolute;
+                    left: -5px;
+                    bottom: -42%;
+                    z-index: 1;
+                    width: 29vw;
+                    height: auto;
+                }
+
+                .img_content {
+                    max-width: 100%;
+                    border: 10px solid #00303E;
+                    border-radius: 20px;
+                    position: relative;
+                    margin-bottom: -1px;
+                }
+            }
+        }
+    }
+
+    .card_content {
+        padding-top: 220px;
+        padding-bottom: 150px;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .card_1 {
+            background-color: #90be6d;
+            border-radius: 25px;
+
+            span {
+                color: #fff;
+                font-size: 40px;
+                padding: 5px;
+            }
+
+            img {
+                border-radius: 25px;
+                box-shadow: 1px 1px 14px 2px #787878;
+            }
+        }
+
+        .card_2 {
+            background-color: rgb(35, 125, 161);
+            border-radius: 25px;
+
+            span {
+                color: #fff;
+                font-size: 40px;
+                padding: 5px;
+            }
+
+            img {
+                border-radius: 25px;
+                box-shadow: 1px 1px 14px 2px #787878;
+            }
+        }
+
+        .card_3 {
+            background-color: #f94144;
+            border-radius: 25px;
+
+            span {
+                color: #fff;
+                font-size: 40px;
+                padding: 5px;
+            }
+
+            img {
+                border-radius: 25px;
+                box-shadow: 1px 1px 14px 2px #787878;
+            }
+        }
+    }
+}
+
+@media (min-width: 1570px) {
+    .battle {
+        .video_content {
+            .video {
+                .hold_video {
+                    .topper {
+                        left: -3px !important;
+                        width: 480px !important;
+                        bottom: -45% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .battle {
+        .video_content {
+            .video {
+                .hold_video {
+                    .topper {
+                        left: -5px !important;
+                    }
+
+                    .img_content {
+                        margin-bottom: -2px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .battle {
+        .video_content {
+            .video {
+                .video_title {
+                    .theBattle {
+                        font-size: 40px !important;
+                    }
+
+                    .arena {
+                        font-size: 40px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .battle {
+        .video_content {
+            .video {
+                .hold_video {
+                    .topper {
+                        left: -4px !important;
+                        bottom: -41% !important;
+                    }
+
+                    .img_content {
+                        margin-bottom: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 915px) {
+    .battle {
+        .video_content {
+            .video {
+                .video_title {
+                    width: 60% !important;
+                }
+
+                .hold_video {
+                    .topper {
+                        left: -2px !important;
+                        bottom: -40% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 764px) {
+    .battle {
+        .video_content {
+            .video {
+                .video_title {
+                    width: 65% !important;
+                }
+
+                .hold_video {
+                    .topper {
+                        left: -2px !important;
+                        bottom: -40% !important;
+                    }
+                }
+
+                .coming {
+                    font-size: 15px !important;
+                }
+            }
+        }
+
+        .card_content {
+            padding-top: 150px !important;
+        }
+    }
+}
+
+@media (max-width: 707px) {
+    .battle {
+        .video_content {
+            .video {
+                .video_title {
+                    .theBattle {
+                        font-size: 35px !important;
+                    }
+
+                    .arena {
+                        font-size: 35px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 642px) {
+    .battle {
+        .video_content {
+            .video {
+                .video_title {
+                    .theBattle {
+                        font-size: 30px !important;
+                    }
+
+                    .arena {
+                        font-size: 30px !important;
+                    }
+                }
+
+                .hold_video {
+                    .topper {
+                        left: 0px !important;
+                        bottom: -39% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .battle {
+        .video_content {
+            .video {
+                .video_title {
+                    .theBattle {
+                        font-size: 25px !important;
+                    }
+
+                    .arena {
+                        font-size: 25px !important;
+                    }
+                }
+
+                .hold_video {
+                    .topper {
+                        left: 0px !important;
+                        bottom: -38% !important;
+                    }
+                }
+            }
+        }
+
+        .card_content {
+            .card_1 {
+                max-width: 70% !important;
+
+                img {
+                    max-width: 100% !important;
+                }
+            }
+
+            .card_2 {
+                max-width: 70% !important;
+
+                img {
+                    max-width: 100% !important;
+                }
+            }
+
+            .card_3 {
+                max-width: 70% !important;
+
+                img {
+                    max-width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 446px) {
+    .battle {
+        .video_content {
+            .video {
+                .video_title {
+                    top: -6px !important;
+                    border: 3px solid #00303E !important;
+                    flex-direction: column !important;
+
+                    .theBattle {
+                        font-size: 20px !important;
+                        padding: 0 !important;
+                        border-radius: 14px 14px 0 0 !important;
+                    }
+
+                    .arena {
+                        font-size: 20px !important;
+                    }
+                }
+
+                .coming {
+                    bottom: -3px !important;
+                    padding: 3px 10px !important;
+                }
+
+                .hold_video {
+                    .topper {
+                        left: 0px !important;
+                        bottom: -36% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 446px) {
+    .battle {
+        .card_content {
+            .card_1 {
+                span {
+                    font-size: 30px !important;
+                }
+            }
+
+            .card_2 {
+                span {
+                    font-size: 30px !important;
+                }
+            }
+
+            .card_3 {
+                span {
+                    font-size: 30px !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.gradientEnd{
+    max-width: 100%;
+    height: 220px;
+    background: linear-gradient(to bottom, #72e1ff 17%, #ffffff 82%);
+    position: relative;
+}
+@media (max-width: 685px) {
+    .gradientEnd{
+        height: 170px!important;
+    }
+}
+@media (max-width: 390px) {
+    .gradientEnd{
+        height: 135px!important;
+    }
+}

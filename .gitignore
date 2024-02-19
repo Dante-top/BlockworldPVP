@@ -1,0 +1,15 @@
+contracts/.placeholder
+test/.placeholder
+build
+node_modules
+client/node_modules
+server/node_modules
+client/.env.local
+server/.env
+client/yarn-debug.log*
+client/yarn-error.log*
+client/logs/*/*.txt
+client/.cache
+client/.next
+.env
+yarn-error.log

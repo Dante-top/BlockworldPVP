@@ -1,0 +1,198 @@
+ .Item_dlg {
+     background-color: #000;
+     width: 987px;
+     padding: 10px 15px 40px 50px;
+
+     .back_button {
+         margin-top: 20px;
+         background: transparent;
+         border: 1.5px solid #fff;
+         border-radius: 8px;
+         padding: 0px 3px;
+         color: #fff;
+         cursor: pointer;
+
+         img {
+             padding: 7px 0;
+         }
+
+         p {
+             margin: 0;
+             padding: 5px 9px;
+             font-family: 'Calibri';
+         }
+     }
+
+     .title_content {
+         align-items: flex-start;
+         justify-content: flex-start;
+
+         .dlg_title {
+             font-size: 35px;
+             color: #fff;
+             background-color: #4EA8DE;
+             font-family: 'Calibri';
+             border-radius: 15px;
+             padding: 10px 90px;
+             margin-right: 20px;
+         }
+     }
+
+     .dlg_body {
+         flex-direction: row;
+
+         .dlg_img {
+             border: 10px solid #fff;
+             border-radius: 18px;
+             margin-right: 10px;
+             width: 85%;
+         }
+
+         .token_content {
+             flex-direction: row;
+
+             .dlg_Token1 {
+                 display: flex;
+                 background-color: #fff;
+                 border-radius: 25px;
+                 color: #4EA8DE;
+                 padding: 5px 15px;
+                 font-family: 'Calibri-bold';
+                 margin-right: 25px;
+
+                 img {
+                     margin-right: 5px;
+                 }
+
+                 p {
+                     margin: 0;
+                     font-size: 17px;
+                 }
+             }
+
+             .dlg_Token2 {
+                 display: flex;
+                 background-color: #fff;
+                 border-radius: 25px;
+                 color: #4EA8DE;
+                 padding: 5px 20px;
+                 font-family: 'Calibri-bold';
+
+                 img {
+                     margin: 0;
+                 }
+
+                 p {
+                     margin: 0;
+                     margin-right: 15px;
+                     font-size: 17px;
+                 }
+             }
+         }
+
+         .rarity_content {
+             justify-content: center;
+         }
+
+         .dlg_rarity {
+             background-color: #4EA8DE;
+             display: flex;
+             flex-direction: column;
+             border-radius: 18px;
+             padding: 12px;
+             color: #fff;
+             margin: 8px;
+             justify-content: center;
+
+             .rarity_title {
+                 background-color: #fff;
+                 padding: 0px 10px;
+                 border-radius: 10px;
+                 font-family: "Calibri";
+                 color: #4EA8DE;
+                 width: 98%;
+                 text-align: center;
+                 margin-bottom: 15px;
+             }
+
+             p {
+                 margin: 0;
+                 font-size: 14px;
+             }
+
+             .rarity_percent {
+                 font-size: 16px;
+             }
+         }
+     }
+ }
+
+ @media (max-width: 767px) {
+     .Item_dlg {
+         width: 100%;
+         padding: 20px !important;
+
+         .title_content {
+             justify-content: center !important;
+             align-items: center !important;
+             margin-top: 20px;
+
+             .dlg_title {
+                 font-size: 30px;
+             }
+         }
+
+         .dlg_body {
+             flex-direction: column !important;
+
+             .dlg_img {
+                 width: 100%;
+                 margin-bottom: 25px;
+             }
+         }
+     }
+ }
+
+ @media (max-width: 616px) {
+     .dlg_body {
+         .token_content {
+             flex-direction: column !important;
+
+             span {
+                 margin-bottom: 15px;
+                 margin-right: 0 !important;
+                 width: 100%;
+             }
+         }
+     }
+ }
+
+ @media (max-width: 505px) {
+     .Item_dlg {
+         .title_content {
+             .dlg_title {
+                 font-size: 25px !important;
+                 padding: 10px 30px !important;
+             }
+         }
+
+         .dlg_rarity {
+             padding: 12px;
+             margin: 8px;
+             flex-direction: row !important;
+             align-items: center;
+             width: 96%;
+             justify-content: space-between !important;
+
+             span {
+                 margin-right: 10px;
+                 margin-bottom: 0 !important;
+                 width: 42% !important;
+             }
+
+             p {
+                 margin-right: 15px;
+             }
+         }
+     }
+ }

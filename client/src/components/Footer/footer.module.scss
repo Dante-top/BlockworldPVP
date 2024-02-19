@@ -1,0 +1,412 @@
+.footer {
+  background-color: #72e1ff;
+  width: 100%;
+
+  .footerText {
+    padding: 0 0 10px 20px;
+    color: #00303e;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-top: 30px;
+  }
+
+  .footerRoot {
+    display: flex;
+    justify-content: center;
+
+    .space {
+      width: 5%;
+    }
+
+    .btnArea {
+      width: 50%;
+
+      .btn_join {
+        background-color: #00303e;
+        border-radius: 3rem;
+        margin: 0 0 10px 0;
+        text-align: center;
+        color: white;
+        box-shadow: 10px 9px 13px -10px rgb(0 0 0 / 96%);
+        width: 100px;
+      }
+
+      .btn_join>span {
+        font-size: 20px;
+        color: white;
+      }
+
+      .btn_ourcommunity {
+        width: 100%;
+        background-color: #d2f6ff;
+        border-radius: 2rem;
+        text-align: center;
+        color: #00303e;
+        border: 7px solid #00303e;
+        box-shadow: 10px 9px 13px -10px rgb(0 0 0 / 96%);
+      }
+
+      .btn_ourcommunity>span {
+        font-size: 50px;
+      }
+
+      .socialbtn {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        text-align: center;
+
+        .socialbtndiscord,
+        .socialbtninstagram,
+        .socialbtnyoutube {
+          padding: 5px 0 5px 0;
+          background-color: #d2f6ff;
+          font-size: 18px;
+          border-radius: 5rem;
+          box-shadow: 10px 9px 13px -10px rgb(0 0 0 / 96%);
+          text-shadow: 1px 1px 20px rgb(66, 66, 66);
+          width: 25%;
+          cursor: pointer;
+          color: black;
+        }
+
+        .socialbtninstagram {
+          margin-left: 40px;
+          margin-right: 40px;
+        }
+      }
+    }
+
+    .textArea {
+      width: 30%;
+
+      .btn_quick {
+        background-color: #00303e;
+        border-radius: 3rem;
+        margin: 50px 0 20px 0;
+        text-align: center;
+        color: white;
+        box-shadow: 10px 9px 13px -10px rgb(0 0 0 / 96%);
+        width: 80%;
+      }
+
+      .btn_quick>span {
+        font-size: 20px;
+        color: white;
+      }
+
+      .textPanel {
+        display: flex;
+        width: 100%;
+
+        .textLine1 {
+          width: 50%;
+          color: #00303e;
+          font-size: 18px;
+          font-weight: bold;
+
+          a {
+            color: #00303e;
+          }
+
+          .ptarea {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            cursor: pointer;
+
+            .asRight {
+              width: 15px;
+              height: 15px;
+              margin-right: 10px;
+            }
+          }
+
+          .ptarea:hover {
+            color: #d2f6ff;
+          }
+        }
+
+        .textLine2 {
+          width: 50%;
+          color: #00303e;
+          font-size: 18px;
+          font-weight: bold;
+
+          a {
+            color: #00303e;
+          }
+
+          .ptarea {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            cursor: pointer;
+
+            .asRight {
+              width: 15px;
+              height: 15px;
+              margin-right: 10px;
+            }
+          }
+
+          .ptarea:hover {
+            color: #d2f6ff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .footer {
+    .footerRoot {
+      .btnArea {
+        width: 500px;
+      }
+
+      .textArea {
+        width: 450px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    .footerRoot {
+      width: 100%;
+      align-items: center;
+    }
+
+    .footerRoot {
+      display: inline;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .btnArea,
+      .textArea {
+        width: 91%;
+      }
+
+      .textArea {
+        margin-top: 0px;
+
+        .btn_quick {
+          width: 65%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    .footerRoot {
+
+      .btnArea,
+      .textArea {
+        width: 700px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    .footerRoot {
+      .btnArea {
+        .socialbtn {
+
+          .socialbtndiscord,
+          .socialbtninstagram,
+          .socialbtnyoutube {
+            width: 100%;
+          }
+        }
+      }
+
+      .btnArea,
+      .textArea {
+        width: 520px;
+
+        .textPanel {
+
+          .textLine1,
+          .textLine2 {
+            .ptarea {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    .footerText {
+      margin-top: 30px;
+    }
+
+    .footerRoot {
+
+      .btnArea,
+      .textArea {
+        width: 500px;
+
+        .btn_ourcommunity {
+          border: 7px solid #00303e;
+
+          span {
+            font-size: 40px;
+          }
+        }
+
+        .textPanel {
+
+          .textLine1,
+          .textLine2 {
+            .ptarea {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer {
+    .footerText {
+      margin-top: -30px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .footerRoot {
+      .textArea {
+        margin-bottom: 50px;
+      }
+
+      .btnArea,
+      .textArea {
+        width: 400px;
+
+        .btn_ourcommunity {
+          span {
+            font-size: 30px;
+          }
+        }
+
+        .socialbtn {
+
+          .socialbtndiscord,
+          .socialbtninstagram,
+          .socialbtnyoutube {
+            text-align: center;
+            margin-top: 20px;
+            width: 32%;
+            font-size: 15px;
+          }
+
+          .socialbtninstagram {
+            margin-left: 7px;
+            margin-right: 7px;
+          }
+        }
+
+        .textPanel {
+
+          .textLine1,
+          .textLine2 {
+            .ptarea {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    .footerRoot {
+
+      .btnArea,
+      .textArea {
+        width: 320px;
+
+        .btn_ourcommunity {
+          span {
+            font-size: 30px;
+          }
+        }
+
+        .textPanel {
+          width: 100%;
+
+          .textLine1,
+          .textLine2 {
+            width: 50%;
+
+            .ptarea {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footer {
+    display: flex;
+    align-items: center;
+
+    .footerText {
+      padding: 0;
+      padding-bottom: 5px;
+    }
+
+    .footerRoot {
+      width: 300px;
+
+      .btnArea,
+      .textArea {
+        width: 300px;
+
+        .btn_ourcommunity {
+          span {
+            font-size: 30px;
+          }
+        }
+
+        .textPanel {
+          width: 100%;
+
+          .textLine1,
+          .textLine2 {
+            width: 50%;
+
+            .ptarea {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

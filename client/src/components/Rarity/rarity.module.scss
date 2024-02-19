@@ -1,0 +1,306 @@
+.rarity {
+    h1 {
+        font-size: 45px !important;
+        font-weight: 900;
+    }
+
+    background-image: url('../../assets/rarity.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .background_transform {
+        background-color: #48bfe324;
+        min-height: 100vh;
+    }
+
+    .btn_social_content {
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        .btn_common {
+            font-size: 22px;
+            border-radius: 1.3rem;
+            margin: 10px 18px;
+            font-weight: 700;
+            color: #fff;
+            padding: 4px 10px;
+            text-align: center;
+            width: 225px;
+        }
+    }
+
+    .rarity_content {
+        width: 245px;
+    }
+
+    .responsive_rarity {
+        flex-direction: row;
+    }
+}
+
+.accordion_content {
+    .accordion_content_item {
+        border: none !important;
+        color: #fff !important;
+
+        .accordion_content_header {
+            color: #fff !important;
+
+            .accordion_content_button {
+                color: #fff;
+                padding: 5px;
+                border: none !important;
+            }
+        }
+
+        .accordion_content_body {
+            padding: 5px;
+
+            p {
+                margin-bottom: 2px;
+            }
+        }
+    }
+}
+
+.common_primary_color {
+    background-color: #707070 !important;
+}
+
+.common_secondary_color {
+    border: 7px solid #ADB5BD !important;
+}
+
+.uncommon_primary_color {
+    background-color: #65854C !important;
+}
+
+.uncommon_secondary_color {
+    border: 7px solid #90BE6D !important;
+}
+
+.rare_primary_color {
+    background-color: #458DA2 !important;
+}
+
+.rare_secondary_color {
+    border: 7px solid #62C9E8 !important;
+}
+
+.superRare_primary_color {
+    background-color: #5E389A !important;
+}
+
+.superRare_secondary_color {
+    border: 7px solid #8650DC !important;
+}
+
+.legendary_primary_color {
+    background-color: #A38A4C !important;
+}
+
+.legendary_secondary_color {
+    border: 7px solid #E9C56D !important;
+}
+
+.header {
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    padding: 0 30px;
+    position: relative;
+
+    .navbar {
+        max-width: 1670px;
+        margin: 0 auto;
+        font-size: 15px;
+        margin: 0;
+        padding: 5px 0;
+        width: 100%;
+
+        .nav_logo {
+            height: 90px;
+        }
+
+        .navbar_nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            background-color: #d2f6ff;
+            border-radius: 3rem;
+            z-index: 100;
+
+            .open {
+                display: none;
+                transform: translateX(-100%);
+            }
+
+            .menu {
+                padding: 0.5rem 1rem;
+                color: #00303E;
+                border-radius: 1.3rem;
+                margin: 0 25px;
+            }
+
+            .dropdown_icon::after {
+                display: inline-block !important;
+                margin-left: 10px !important;
+                vertical-align: -2px !important;
+                content: " ";
+                border-top: 13px solid !important;
+                border-right: 8px solid transparent !important;
+                border-left: 8px solid transparent !important;
+                border-bottom: 0 !important;
+            }
+
+            .dropdown_content {
+                top: 115%;
+                left: 30px;
+                margin-top: 0.125rem;
+                color: #00303E;
+                background-color: #d2f6ff;
+
+                .dropdown_menu:hover {
+                    border-color: #000 !important;
+                    color: #d2f6ff !important;
+                    background-color: #00303E !important;
+                }
+            }
+
+            .menu:hover {
+                border-color: #000;
+                color: #d2f6ff;
+                background-color: #00303E;
+                padding: 0.5rem 1rem;
+            }
+
+            .walletConnect {
+                height: 45px !important;
+                margin: 5px 15px;
+                color: #fff;
+            }
+
+            .walletConnect:hover {
+                border-color: #000;
+                color: #00303E;
+                background-color: #d2f6ff;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1570px) {
+    .header {
+        .about {
+            .subtitle {
+                bottom: -10%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .header {
+        .menu {
+            margin: 5px 10px !important;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .header {
+        .menu {
+            margin: 5px 10px !important;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 0;
+
+        .navbar {
+            .nav_logo {
+                display: none !important;
+            }
+
+            background-color: #48BFE3 !important;
+            width: 100%;
+
+            .navbar_nav {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 0;
+                background-color: transparent !important;
+
+                .menu {
+                    margin-top: 10px;
+                }
+
+                .dropdown_content {
+                    background-color: #48BFE3 !important;
+                    border: none;
+                    min-width: 50px;
+                }
+
+                .walletConnect {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1299px) {
+    .responsive_rarity {
+        flex-wrap: wrap;
+    }
+
+    .rarity_content {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .rarity {
+        h1 {
+            font-size: 35px !important;
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .rarity {
+        h1 {
+            font-size: 30px !important;
+        }
+    }
+}
+
+// @media (max-width: 1155px) {
+//     .responsive-rarity{
+//         flex-direction: column!important;
+//     }
+// }
+// @media (min-width: 991px) {
+//     .responsive-content {
+//         flex-wrap: nowrap;
+//         width: 100%;
+//     }
+//     .responsive-column{
+//         width: 100%;
+//     }
+// }

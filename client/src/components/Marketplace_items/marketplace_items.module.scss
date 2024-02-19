@@ -1,0 +1,56 @@
+.m_items {
+
+    .items_content {
+        margin: 12px 0;
+        cursor: pointer;
+
+        .property {
+            background-color: rgb(0 0 0 / 66%);
+            padding: 12px;
+
+            p {
+                margin-bottom: 17px;
+                color: #fff;
+                font-family: 'Calibri';
+            }
+
+            .price {
+                background-color: #212529;
+                padding: 2px 6px;
+                border-radius: 25px;
+
+                p {
+                    margin: 0;
+                    padding: 0 5px;
+                    color: #fff;
+                    font-family: 'Calibri';
+                }
+            }
+        }
+    }
+
+    .btn_pagenation {
+        background-color: #4EA8DE;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 8px 14px;
+        font-family: 'Calibri';
+    }
+}
+
+@media (max-width: 575px) {
+    .m_items {
+        .items_content {
+            width: 50% !important;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .m_items {
+        .items_content {
+            width: 100% !important;
+        }
+    }
+}
